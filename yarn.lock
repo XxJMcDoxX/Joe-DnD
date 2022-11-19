@@ -6682,6 +6682,11 @@
   "resolved" "https://registry.npmjs.org/pako/-/pako-1.0.10.tgz"
   "version" "1.0.10"
 
+"parallax@^0.0.0":
+  "integrity" "sha512-rzFe6y4aAsqhA1aGhNQTG32azrrVueNm5Lhyp2/yXYFbCuusO8VW6CqobtKqO2LBIUJBxYoRskVG2oTeBqdCpw=="
+  "resolved" "https://registry.npmjs.org/parallax/-/parallax-0.0.0.tgz"
+  "version" "0.0.0"
+
 "parallel-transform@^1.1.0":
   "integrity" "sha1-1BDwZbBdojCB/NEPKIVMKb2jOwY=sha512-S3dwMLqYN1MoFDSmjnpLVlCw1KdKd8/YvpHvAwCzEdm46a+OLFqfCc3y7CSVcGzTKwbfyU5PufsdrnwGYE7Iqw== sha512-S3dwMLqYN1MoFDSmjnpLVlCw1KdKd8/YvpHvAwCzEdm46a+OLFqfCc3y7CSVcGzTKwbfyU5PufsdrnwGYE7Iqw=="
   "resolved" "https://registry.npmjs.org/parallel-transform/-/parallel-transform-1.1.0.tgz"
@@ -7835,7 +7840,7 @@
     "strip-ansi" "5.2.0"
     "text-table" "0.2.0"
 
-"react-dom@^16.8.6":
+"react-dom@^16.8.6", "react-dom@16.x.x || 17.x.x || 18.x.x":
   "integrity" "sha512-1nL7PIq9LTL3fthPqwkvr2zY7phIPjYrT0jp4HjyEQrEROnw4dG41VVwi/wfoCneoleqrNX7iAD+pXebJZwrwA=="
   "resolved" "https://registry.npmjs.org/react-dom/-/react-dom-16.8.6.tgz"
   "version" "16.8.6"
@@ -7854,6 +7859,11 @@
   "integrity" "sha512-aUk3bHfZ2bRSVFFbbeVS4i+lNPZr3/WM5jT2J5omUVV1zzcs1nAaf3l51ctA5FFvCRbhrH0bdAsRRQddFJZPtA=="
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-16.8.6.tgz"
   "version" "16.8.6"
+
+"react-parallax@^3.5.1":
+  "integrity" "sha512-p5zPsPsqELlIOGaPS01O0IRx8R2bxcBAtrdF/RHf9nIxxk5hijbM2y89tk4rJQBcNH6ESSLe7J2NV4/ms7FLFw=="
+  "resolved" "https://registry.npmjs.org/react-parallax/-/react-parallax-3.5.1.tgz"
+  "version" "3.5.1"
 
 "react-scripts@^3.0.1":
   "integrity" "sha512-LKEjBhVpEB+c312NeJhzF+NATxF7JkHNr5GhtwMeRS1cMeLElMeIu8Ye7WGHtDP7iz7ra4ryy48Zpo6G/cwWUw=="
@@ -7915,7 +7925,7 @@
   optionalDependencies:
     "fsevents" "2.0.6"
 
-"react@^16.0.0", "react@^16.8.6":
+"react@^16.0.0", "react@^16.8.6", "react@16.x.x || 17.x.x || 18.x.x":
   "integrity" "sha512-pC0uMkhLaHm11ZSJULfOBqV4tIZkx87ZLvbbQYunNixAAvjnC+snJCg0XQXn9VIsttVsbZP/H/ewzgsd5fxKXw=="
   "resolved" "https://registry.npmjs.org/react/-/react-16.8.6.tgz"
   "version" "16.8.6"
