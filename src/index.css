@@ -15,10 +15,10 @@
     /* --background-main-video: url('./assets/Drone_bg.mp4'); */
     --color-bg: #1f1f38;
     --color-bg-variant: #71797E;
-    --color-primary: aqua;
+    --color-primary: crimson;
     --color-primary-variant:#848884;
     --color-white: #FFFFFF;
-    --color-light: #FF6600;
+    --color-light: #722F37;
 
     --transition: all 400ms ease;
     ;
@@ -67,6 +67,7 @@ h1 {
 section {
     margin-top: 8rem;
     height: 100vh;
+    /* border: solid aqua; */
 }
 
 section>h2,

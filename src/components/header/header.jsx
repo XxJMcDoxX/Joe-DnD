@@ -1,6 +1,7 @@
 import React from 'react'
 import './header.css'
 import Navbar from '../../components/nav/Nav'
+import Joe from '../../assets/joe.jpg'
 import { Parallax } from 'react-parallax';
 import dice from '../../assets/dice.jpg'
 
@@ -12,8 +13,11 @@ const Header = () => {
           <div className="container header__container">
             <h5>Joe Locey</h5>
             <h2>Dungeon Master</h2>
-            <Navbar />
           </div>
+            <Navbar />
+            <div className="image__container">
+              <img src={Joe} alt="" />
+            </div>
         </header>
       </section>
     </Parallax>
